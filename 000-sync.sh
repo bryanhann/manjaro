@@ -1,5 +1,5 @@
 echo                                    >> ~/.update.log
 echo $date                              >> ~/.update.log
 echo                                    >> ~/.update.log
-echo "-------- [pacman -Syu]--------"   >> ~/.update.log
-sudo pacman -Syu                        >> ~/.update.log
+echo "-------- [pacman --noconfirm -Syu]--------"   >> ~/.update.log
+sudo pacman --noconfirm -Syu                        >> ~/.update.log
