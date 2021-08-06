@@ -4,4 +4,5 @@
 
 git config  user.email "you@example.com"
 git config  user.name "Your Name"
-git config  core.editor "vim"
+git config  core.editor "/usr/bin/vi"
+###ok
